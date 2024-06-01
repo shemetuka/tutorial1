@@ -2,8 +2,142 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>YachtJet</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- <section class="about-us">
+      <div class="container about-us-container">
+        <div class="about-div">
+          <h2 class="about-title">
+            YachtJet fleet is here to take you on the ultimate adventure
+          </h2>
+          <ul class="about-list">
+            <li class="first-item">
+              From spacious decks to state-of-the-art technology, our yachts are
+              designed to provide the perfect blend of luxury and functionality.
+            </li>
+            <li class="second-item">
+              Take a look at our selection below and choose the yacht that
+              matches your needs and preferences.No matter which yacht you
+              choose, our experienced crew will ensure that your journey is
+              smooth and enjoyable. Book now and get ready for an unforgettable
+              adventure on the high seas.
+            </li>
+          </ul>
+        </div>
+        <picture>
+          <source
+            media="(min-width:768px)"
+            srcset="./img/about-us/tab-x1.png, ./img/about-us/tab-x2.png 2x"
+          />
+          <source
+            media="(min-width:1158px)"
+            srcset="./img/about-us/desk-1x.png, ./img/about-us/desk-2x.png"
+          />
+          <source
+            media="(min-width:1440px)"
+            srcset="
+              ./img/about-us/desk-1440-1x.png,
+              ./img/about-us/desk-1440-x2.png
+            "
+          />
+          <img
+            class="about-image"
+            srcset="./img/about-us/about-x1.png, ./img/about-us/about-x2.png"
+            src="./img/about-us/about-1x.jpg"
+            alt="yacht"
+            width="335"
+          />
+        </picture>
+      </div>
+    </section> -->
+
+    <section class="advantages" id="advantages">
+      <div class="conainer">
+        <h2 class="advantages-title">Advantages</h2>
+        <div class="list-block">
+          <ol class="advantages-list">
+            <li class="advantages-item rectangle">
+              <span class="number">01</span>
+              Swimming and water sports: try your hand at water skiing
+            </li>
+
+            <li class="advantages-item">
+              <span class="number">01</span>
+              Swimming and water sports: try your hand at water skiing
+            </li>
+            <li class="advantages-item rectangle">
+              <span class="number">01</span>
+              Swimming and water sports: try your hand at water skiing
+            </li>
+            <li class="advantages-item rectangle">
+              <span class="number">01</span>
+              Swimming and water sports: try your hand at water skiing
+            </li>
+          </ol>
+        </div>
+        <div class="list-img">
+          <picture>
+            <!--? Mobile -->
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/advantages/mobil/adv-1x.jpg,
+                ./img/advantages/mobil/adv-2x.jpg
+              "
+            />
+            <!--? Tablet -->
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./img/advantages/tablet/adv-1x.jpg 1x,
+                ./img/advantages/tablet/adv-2x.jpg 2x
+              "
+            />
+            <!--? Desktop 1280 -->
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ./img/advantages/desc-1280/adv-1x.jpg 1x,
+                ./img/advantages/desc-1280/adv-2x.jpg 2x
+              "
+            />
+            <!--? Desktop 1440 -->
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/advantages/desc-1440/adv-1x.jpg 1x,
+                ./img/advantages/desc-1440/adv-2x.jpg 2x
+              "
+            />
+            <img
+              class="advantages-img"
+              src="./img/advantages/mobil/adv-1x.jpg"
+              alt="Dining area on the yacht"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
